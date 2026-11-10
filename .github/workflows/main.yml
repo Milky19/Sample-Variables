@@ -1,15 +1,10 @@
 name: Demo-Vars
 on: 
  push:
-env:
- APP_NAME: myapp
- ENVIRONMENT: dev
 jobs:
  build:
   runs-on: ubuntu-24.04
   steps:
     - name: Display message
-      run: |
-       echo "App: $APP_NAME"
-       echo "Env: $ENVIRONMENT"
+      run: echo "Welcome To github actions workflow"
  
