@@ -11,5 +11,5 @@ jobs:
     - name: Display message
       run: |
        echo: "App: $APP_NAME"
-       echo: "Env :$ENVIRONMENT"
+       echo: "Env: $ENVIRONMENT"
  
