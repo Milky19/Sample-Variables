@@ -2,7 +2,8 @@ name: Demo-Vars
 on: 
  push:
 jobs:
- build:
+ deploy:
+  if: ${{true}}
   runs-on: ubuntu-24.04
   steps:
     - name: Display message
